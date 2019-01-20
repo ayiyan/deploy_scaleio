@@ -1,0 +1,7 @@
+1,上传software目录下的scaleio_remote.tar.gz到物理server前端的跳板机,然后解压
+
+上传公钥到跳板机 .ssh 目录下
+
+2,解压缩包计算MD5和config目录下的md5值是否相等
+
+3,运行python自动部署
